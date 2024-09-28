@@ -1,16 +1,16 @@
 <script setup>
+import cabecalo from './components/cabecalo.vue'
 import componente from './components/testeBlog1.vue'
-import header from './components/cabecalo.vue'
+import login from './components/login.vue'
+import home from './components/home.vue'
 </script>
 
 <template>
-  <!-- header -->
-   <header/>
+   <cabecalo/>
 
-  <!-- body -->
-  <componente/>
-  <componente/>
-  <componente/>
+  <router-view/>
+
+  
 
 </template>
 
