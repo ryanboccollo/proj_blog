@@ -13,7 +13,7 @@ const routes = [
     {
       path: '/',
       name: 'conteudo',
-      component: Home // Você pode mudar para Login se preferir
+      component: Home 
     },
     {
       path: '/login',

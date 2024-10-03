@@ -4,7 +4,7 @@
 
 <template>
 
-<div class="login-container">
+<div style="width: 550px;" class="login-container">
     <h2>Login</h2>
     <form>
         <div class="input-group">

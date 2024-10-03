@@ -8,9 +8,9 @@
 </script>
 
 <template>
-<div class="welcome-container">
+<div style="width: 550px;" class="welcome-container">
     <h1>Bem-vindo!</h1>
-    <p>Estamos felizes em tê-lo aqui. Explore nosso site e aproveite!</p>
+    <p style=" display: flex;justify-content: center;"> Explore nosso site e aproveite!</p>
     <div class="gif-container">
         <img src="/src/assets/parabens.gif" alt="GIF de boas-vindas">
     </div>
